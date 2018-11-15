@@ -162,3 +162,138 @@ html.sr .load-hidden
 #home-landing h1
     margin: 0
     padding: 1rem 0
+
+#home-landing a
+    font-size: 3rem
+    margin: 0px 300px
+
+/* Home Intro 1 */
+
+#home .intro1 .home-img1
+    background: url('/static/style/img/intro1.jpg')
+    background-size: cover
+    width: 30rem
+    height: 20rem
+    border-radius: 20px
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
+
+#home .intro1
+    display: flex
+    margin: 70px 0
+
+#home .intro1 .text p
+    width: 50rem
+    text-align: justify
+    margin-bottom: 30px
+
+#home .intro1 .text
+    margin: 0px 0px 0px 50px
+    text-align: center
+
+#home .intro1 .text button
+    border-radius: 40px
+    background-color: #E84235
+    width: 18rem
+    height: 3rem
+    border: solid 2px #9E2D24
+    color: white
+    transition: all .25s ease-in-out
+
+#home .intro1 .text button:hover
+    background-color: #FF7568
+    border: solid 2px #BA554C
+
+/* Home Intro 2 */
+
+#home .intro2 .home-img2
+    background: url('/static/style/img/intro2.jpg')
+    background-size: cover
+    width: 30rem
+    height: 20rem
+    border-radius: 20px
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
+
+#home .intro2
+    display: flex
+    float: right
+    position: relative
+    margin: 70px 0
+
+#home .intro2 .text p
+    width: 50rem
+    text-align: justify
+    margin-bottom: 30px
+
+#home .intro2 .text
+    margin: 0px 50px 0px 0px
+    text-align: center
+
+#home .intro2 .text button
+    border-radius: 40px
+    background-color: #E84235
+    width: 18rem
+    height: 3rem
+    border: solid 2px #9E2D24
+    color: white
+    transition: all .25s ease-in-out
+
+#home .intro2 .text button:hover
+    background-color: #FF7568
+    border: solid 2px #BA554C
+
+/* Home Intro 3 */
+
+#home .intro3 .home-img3
+    background: url('/static/style/img/intro3.jpg')
+    background-size: cover
+    width: 30rem
+    height: 20rem
+    border-radius: 20px
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
+
+#home .intro3
+    display: flex
+    margin: 70px 0 130px 0
+
+#home .intro3 .text
+    margin: 0px 0px 0px 50px
+    text-align: center
+
+#home .intro3 .text p
+    width: 50rem
+    text-align: justify
+
+#home .portfolio
+    margin-top: 350px
+
+/* Footer */
+
+footer 
+    background-color: #171A24
+
+footer .home-nav nav ul
+    list-style: none
+    display: flex
+    padding: 0
+    margin: 0
+
+footer .home-nav nav ul li
+    cursor: pointer
+    margin: 0 40px
+
+footer .home-nav a
+    position: relative
+
+footer .home-nav a:hover::after
+    transform: scaleX(1)
+
+footer .home-nav a::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: white 

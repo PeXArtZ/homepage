@@ -4,15 +4,18 @@ const BrandFoot = () => (
     <footer>
         <section className="home-nav">
             <div className="wrapper">
-                <ul>
-                    <li><Link href="/"><a>Home</a></Link></li>
-                    <li><Link href="/about"><a>Über mich</a></Link></li>
-                    <li><Link href="/leistungen"><a>Leistungen</a></Link></li>
-                    <li><Link href="/referenzen"><a>Referenzen</a></Link></li>
-                    <li><Link href="/blog"><a>Blog</a></Link></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><Link href="/"><a>Home</a></Link></li>
+                        <li><Link href="/about"><a>Über mich</a></Link></li>
+                        <li><Link href="/leistungen"><a>Leistungen</a></Link></li>
+                        <li><Link href="/referenzen"><a>Referenzen</a></Link></li>
+                        <li><Link href="/blog"><a>Blog</a></Link></li>
+                    </ul>
+                </nav>
             </div>
         </section>
+        <hr />
         <section className="legal-nav">
             <div className="wrapper">
                 <div className="social-icons">

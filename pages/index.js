@@ -65,11 +65,7 @@ const Index = () => (
         <section id="home-landing">
          <div className="wrapper">
                  <h1>Tobias Voigt</h1>
-                 <h2>
-                     <a href="" className="typewrite" data-period="2000" data-type='[ "Mein Motto ist beschissen", "Mein Motto ist immer noch beschissen" ]'>
-                        <span className="wrap"></span>
-                     </a>
-                 </h2>
+                 <h2>"Mein Motto ist beschissen"</h2>
                  <Link href="#intro"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
              </div>
          </section>
@@ -79,31 +75,37 @@ const Index = () => (
                 <hr />
                 <div className="intro1">
                     <div className="home-img1"></div>
-                    <p>
-                        Mit 13 Jahren begann mein Interesse für das Webdesign durch meinen Cousin. Schon damals faszinierten mich die Möglichkeiten des Webdesign.
-                        Auch jetzt, mit 17 Jahren, arbeite ich leidenschaftlich an Webseiten mit HTML und CSS. Aktuell lerne ich die Sprachen React (mit NextJS), PHP und Java.
-                    </p>
-                    <Link href="/about"><a><button>Mehr erfahren</button></a></Link>
+                    <div className="text">
+                        <p>
+                            Mit 13 Jahren begann mein Interesse für das Webdesign durch meinen Cousin. Schon damals faszinierten mich die Möglichkeiten des Webdesign.
+                            Auch jetzt, mit 17 Jahren, arbeite ich leidenschaftlich an Webseiten mit HTML und CSS. Aktuell lerne ich die Sprachen React (mit NextJS), PHP und Java.
+                        </p>
+                        <Link href="/about"><a><button>Mehr erfahren</button></a></Link>
+                    </div>
                 </div>
                 <h3>Individuelle Gestaltung</h3>
                 <hr />
                 <div className="intro2">
-                    <p>
-                        Auf Anfrage erstelle ich Ihnen nach Ihren Wünschen eine Website für Ihre Firma, Produkt oder sogar Sie selbst als Person. Dabei arbeite ich immer
-                        mit Ihnen zusammen, um Ihnen das beste Endprodukt liefern zu können.
-                    </p>
-                    <Link href="/leistungen"><a><button>Mehr erfahren</button></a></Link>
+                    <div className="text">
+                        <p>
+                            Auf Anfrage erstelle ich Ihnen nach Ihren Wünschen eine Website für Ihre Firma, Produkt oder sogar Sie selbst als Person. Dabei arbeite ich immer
+                            mit Ihnen zusammen, um Ihnen das beste Endprodukt liefern zu können.
+                        </p>
+                        <Link href="/leistungen"><a><button>Mehr erfahren</button></a></Link>
+                        </div>
                     <div className="home-img2"></div>
                 </div>
-                <h3>Portfolio</h3>
+                <h3 className="portfolio">Portfolio</h3>
                 <hr />
                 <div className="intro3">
                     <div className="home-img3"></div>
-                    <p>
+                    <div className="text">
+                        <p>
                         Um einen besseren Überblick über meine Referenzen zu erhalten, besuchen Sie meine <Link href="/referenzen"><a>Referenzen</a></Link>
                         Seite. Für nähere Informationen stehe ich Ihnen gern per <Link href="mailto:kontakt@tobias-voigt.net"><a>E-Mail</a></Link> oder <Link href="/kontakt">
                         <a>Kontaktformular</a></Link> zur Verfügung. Auf Wunsch erstelle ich Ihnen auch gern kostenlos einen Entwurf für Ihre Website.
-                    </p>
+                        </p>
+                    </div>
                 </div>
             </div>
          </section>
