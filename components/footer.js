@@ -25,9 +25,13 @@ const BrandFoot = () => (
                     <Link href="ts3server://frostiqz.de?"><a><i class="fab fa-teamspeak"></i></a></Link>
                 </div>
                 <div className="info-sites">
-                <Link href="/kontakt"><a>Kontakt</a></Link>
-                <Link href="/datenschutz"><a>Datenschutzerklärung</a></Link>
-                <Link href="/impressum"><a>Impressum</a></Link>
+                    <nav>
+                        <ul>
+                            <li><Link href="/kontakt"><a>Kontakt</a></Link></li>
+                            <li><Link href="/datenschutz"><a>Datenschutzerklärung</a></Link></li>
+                            <li><Link href="/impressum"><a>Impressum</a></Link></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div className="copyright">
                     ©2018 Tobias Voigt
