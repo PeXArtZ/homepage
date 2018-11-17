@@ -10,7 +10,7 @@ body
 html, body 
     width: 100%
     height: 100%
-    background: #1D1E2D
+    background: #181C29
     color: white
     font-size: 10px
     font-family: 'Source Sans Pro', sans-serif
@@ -142,18 +142,18 @@ html.sr .load-hidden
     background-color: white 
 
 .move
-    background: #1D1E2D
+    background: #181C29
     box-shadow: 0 .4rem .8rem rgba(0,0,0,.25)
 
 .move-site
-    background: #1D1E2D
+    background: #181C29
     box-shadow: 0 .4rem .8rem rgba(0,0,0,.25)
 
 
 /* Home Landing */
 
 #home-landing
-    background: linear-gradient(rgba(0,0,0,0.5,), rgba(29,30,45,1)),url(/static/style/img/home-landing.jpg)
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/home-landing.jpg)
     background-size: cover
     height: 100vh
     display: flex
@@ -191,26 +191,31 @@ html.sr .load-hidden
     text-align: center
 
 #home .intro1 .text button
-    border-radius: 40px
-    background-color: #E84235
-    width: 18rem
-    height: 3rem
-    border: solid 2px #9E2D24
-    color: white
-    transition: all .25s ease-in-out
-
-#home .intro1 .text button:hover
-    background-color: #FF7568
-    border: solid 2px #BA554C
+    display: inline-block
+    padding: 0.55em 1.75em
+    border: 0.1em solid #ffffff
+    margin: 0 0.3em 0.4em 0
+    border-radius: 0.12em
+    box-sizing: border-box
+    text-decoration: none
+    font-weight: 300
+    color: #ffffff
+    text-align: center
+    background-color: transparent
     cursor: pointer
+    transition: all 0.2s ease-in-out
+    
+#home .intro1 .text button:hover
+    background-color: white
+    color: black
 
 /* Home Intro 2 */
 
 #home .intro2 .home-img2
     background: url('/static/style/img/intro2.jpg')
     background-size: cover
-    width: 30rem
-    height: 20rem
+    width: 36rem
+    height: 26rem
     border-radius: 20px
     filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
 
@@ -230,17 +235,23 @@ html.sr .load-hidden
     text-align: center
 
 #home .intro2 .text button
-    border-radius: 40px
-    background-color: #E84235
-    width: 18rem
-    height: 3rem
-    border: solid 2px #9E2D24
-    color: white
-    transition: all .25s ease-in-out
-
+    display: inline-block
+    padding: 0.55em 1.75em
+    border: 0.1em solid #ffffff
+    margin: 0 0.3em 0.4em 0
+    border-radius: 0.12em
+    box-sizing: border-box
+    text-decoration: none
+    font-weight: 300
+    color: #ffffff
+    text-align: center
+    background-color: transparent
+    cursor: pointer
+    transition: all 0.2s ease-in-out
+    
 #home .intro2 .text button:hover
-    background-color: #FF7568
-    border: solid 2px #BA554C
+    background-color: white
+    color: black
 
 /* Home Intro 3 */
 
@@ -257,7 +268,7 @@ html.sr .load-hidden
     margin: 70px 0 130px 0
 
 #home .intro3 .text
-    margin: 0px 0px 0px 50px
+    margin: auto 0px auto 50px
     text-align: center
 
 #home .intro3 .text p
@@ -265,12 +276,12 @@ html.sr .load-hidden
     text-align: justify
 
 #home .portfolio
-    margin-top: 350px
+    margin-top: 41rem
 
 /* Footer */
 
 footer 
-    background-color: #171A24
+    background-color: #12151F
 
 footer .home-nav nav ul
     list-style: none
@@ -311,7 +322,7 @@ footer .legal-nav .social-icons
     font-size: 2.7rem
     display: block
     float: left
-    margin-top: 2rem
+    margin-top: 3.5rem
     margin-right: 5rem
 
 footer .legal-nav .social-icons a
@@ -354,3 +365,86 @@ footer .copyright
     text-align: center
     margin-top: 10rem
     margin-bottom: 1rem
+
+/* About Landing */
+
+#about-landing
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/about-landing.jpg)
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    
+#about-landing h1
+    margin: 0
+    padding: 1rem 0
+
+#about-landing a
+    font-size: 3rem
+    margin: 0px 300px
+
+/* About Introduction */
+
+#about .introduction .introduction-img
+    background: url('/static/style/img/introduction.jpg')
+    background-size: cover
+    width: 26rem
+    height: 34rem
+    border-radius: 20px
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
+
+#about .introduction
+    display: flex
+    margin: 70px 0
+
+#about .introduction .text p
+    width: 75rem
+    text-align: justify
+    margin-bottom: 10px
+
+#about .introduction .text
+    margin: auto 0px auto 50px
+    text-align: center
+
+/* Experience */
+
+#about .experience .experience-img
+    background: url('/static/style/img/experience.jpg')
+    background-size: cover
+    width: 30rem
+    height: 20rem
+    border-radius: 20px
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
+
+#about .experience
+    display: flex
+    margin-bottom: 70px
+
+#about .experience .experience-text
+    font-size: 1.4rem
+    margin: auto 0 auto 20rem
+
+#about .experience .experience-text .experience-text-line-1 svg
+    margin-right: 1.5rem
+    font-size: 2rem
+
+#about .experience .experience-text .experience-text-line-2 svg
+    margin-right: 1.5rem
+    font-size: 2rem
+
+#about .experience .experience-text .experience-text-line-3 svg
+    margin-right: 1.5rem
+    font-size: 2rem
+
+#about .experience .experience-text .experience-text-line-4 svg
+    margin-right: 1.5rem
+    font-size: 2rem
+
+#about .experience .experience-text .experience-text-line-1
+    margin-bottom: 0.8rem
+
+#about .experience .experience-text .experience-text-line-2
+    margin-bottom: 0.8rem
+
+#about .experience .experience-text .experience-text-line-3
+    margin-bottom: 0.8rem

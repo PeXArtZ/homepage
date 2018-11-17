@@ -23,8 +23,8 @@ const Index = () => (
             <meta name="twitter:description" lang="de" content="Mit 13 Jahren begann mein Interesse für das Webdesign durch meinen Cousin. Schon damals faszinierten mich die Möglichkeiten des Webdesign.
                         Auch jetzt, mit 17 Jahren, arbeite ich leidenschaftlich an Webseiten mit HTML und CSS. Aktuell lerne ich die Sprachen React (mit NextJS), PHP und Java."></meta>
             <meta name="twitter:card" content="summary"></meta>
-            <meta itemprop="name" content="Tobias Voigt"></meta>
-            <meta itemprop="description" lang="de" content="Webdesigner"></meta>
+            <meta itemProp="name" content="Tobias Voigt"></meta>
+            <meta itemProp="description" lang="de" content="Webdesigner"></meta>
             <meta property="og:url" content="https://www.tobias-voigt.net"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:description" lang="de" content="Website"></meta>
@@ -66,7 +66,7 @@ const Index = () => (
          <div className="wrapper">
                  <h1>Tobias Voigt</h1>
                  <h2>"Mein Motto ist beschissen"</h2>
-                 <Link href="#intro"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
+                 <Link href="#home"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
              </div>
          </section>
          <section id="home">
@@ -77,8 +77,10 @@ const Index = () => (
                     <div className="home-img1"></div>
                     <div className="text">
                         <p>
-                            Mit 13 Jahren begann mein Interesse für das Webdesign durch meinen Cousin. Schon damals faszinierten mich die Möglichkeiten des Webdesign.
-                            Auch jetzt, mit 17 Jahren, arbeite ich leidenschaftlich an Webseiten mit HTML und CSS. Aktuell lerne ich die Sprachen React (mit NextJS), PHP und Java.
+                        Bereits mit 13 Jahren zeigte mir mein Cousin die Grundlagen des Webdesigns mit HTML. Schon zu dieser Zeit faszinierten mich die Möglichkeiten, die 
+                        man allein mit HTML hatte. Bis zum heutigen Tag sammelte ich viel Erfahrung im Bereich des Designs.
+                        Aktuell erstelle ich meine Webseiten mit HTML und CSS, bilde mich aber auch weiter zu anderen Sprachen. 
+                        Einige Beispiele sind JavaScript, React – einschließlich NextJS – und PhP. Aktuell verwende ich den Editor VSCode von Microsoft.
                         </p>
                         <Link href="/about"><a><button>Mehr erfahren</button></a></Link>
                     </div>
@@ -88,10 +90,10 @@ const Index = () => (
                 <div className="intro2">
                     <div className="text">
                         <p>
-                            Auf Anfrage erstelle ich Ihnen nach Ihren Wünschen eine Website für Ihre Firma, Produkt oder sogar Sie selbst als Person. Dabei arbeite ich immer
-                            mit Ihnen zusammen, um Ihnen das beste Endprodukt liefern zu können.
+                        Ich biete Ihnen ein gut durchdachtes Konzept, Design und Gestaltung mit aktuellen Methoden und hohen Ansprüchen, sowie eine langfristige 
+                        Betreuung. Meine Webprojekte basieren auf Sprachen wie HTML 5, CSS 3, React und vielen weiteren. 
                         </p>
-                        <Link href="/leistungen"><a><button>Mehr erfahren</button></a></Link>
+                        <Link href="/leistungen"><a><button className="button bouncy">Mehr erfahren</button></a></Link>
                         </div>
                     <div className="home-img2"></div>
                 </div>
@@ -101,9 +103,9 @@ const Index = () => (
                     <div className="home-img3"></div>
                     <div className="text">
                         <p>
-                        Um einen besseren Überblick über meine Referenzen zu erhalten, besuchen Sie meine <Link href="/referenzen"><a>Referenzen</a></Link>
-                        Seite. Für nähere Informationen stehe ich Ihnen gern per <Link href="mailto:kontakt@tobias-voigt.net"><a>E-Mail</a></Link> oder <Link href="/kontakt">
-                        <a>Kontaktformular</a></Link> zur Verfügung. Auf Wunsch erstelle ich Ihnen auch gern kostenlos einen Entwurf für Ihre Website.
+                        Auf meiner <Link href="/referenzen"><a>Referenzen</a></Link> Seite erhalten Sie einen Überblick über meine bisherig abgeschlossenen und aktuell 
+                        betreuten Projekte. Weitere Projekte werden folgen. Für nähere Informationen stehe ich Ihnen gern per <Link href="mailto:kontakt@tobias-voigt.net">
+                        <a>E-Mail</a></Link> oder <Link href="/kontakt"><a>Kontaktformular</a></Link> zur Verfügung.
                         </p>
                     </div>
                 </div>
