@@ -9,12 +9,12 @@ const Index = () => (
     <div>
         <NextHead>
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossOrigin="anonymous"></script>
             <script src="https://cdn.uwe-barthel.net/landing/static/style/js/function.js"></script>
             <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 
-            <meta charset="UTF-8"></meta>
-            <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+            <meta charSet="UTF-8"></meta>
+            <meta http-Equiv="X-UA-Compatible" content="IE=edge"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="application-name" content="Private Website Tobias Voigt"></meta>
             <meta name="description" lang="de" content="Mit 13 Jahren begann mein Interesse für das Webdesign durch meinen Cousin. Schon damals faszinierten mich die Möglichkeiten des Webdesign.
@@ -53,7 +53,7 @@ const Index = () => (
             <meta name="msapplication-wide310x150logo" content="https://tobias-voigt.net/assets/style/img/favicon/mstile-310x150.png" />
             <meta name="msapplication-square310x310logo" content="https://tobias-voigt.net/assets/style/img/favicon/mstile-310x310.png" />
 
-            <title>Home - Tobias Voigt</title>
+            <title>Home - Webdesign Tobias Voigt</title>
 
             <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
@@ -65,7 +65,7 @@ const Index = () => (
         <section id="home-landing">
          <div className="wrapper">
                  <h1>Tobias Voigt</h1>
-                 <h2>"Mein Motto ist beschissen"</h2>
+                 <h2>Webdesigner</h2>
                  <Link href="#home"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
              </div>
          </section>

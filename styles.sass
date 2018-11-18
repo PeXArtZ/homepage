@@ -48,23 +48,6 @@ ul
     box-sizing: border-box
     hyphens: auto
 
-.pace
-    pointer-events: none
-    user-select: none
-
-.pace-inactive 
-    display: none
-
-.pace .pace-progress
-    background: #0096F1
-    position: fixed
-    z-index: 2000
-    top: 0
-    right: 100%
-    width: 100%
-    height: 4px
-    box-shadow: 2px 0 4px #0096F1
-
 ::selection
     color: black
     background: white
@@ -83,8 +66,29 @@ hr
     width: 5rem
     opacity: .25
 
-html.sr .load-hidden
-    visibility: hidden
+#nprogress 
+  pointer-events: none
+
+#nprogress .bar 
+  background: white
+  position: fixed
+  z-index: 1031
+  top: 0
+  left: 0
+  width: 100%
+  height: .3rem
+
+#nprogress .peg 
+  display: block
+  position: absolute
+  right: 0px
+  width: 100px
+  height: 100%
+  box-shadow: 0 0 10px white, 0 0 5px white
+  opacity: 1.0
+  -webkit-transform: rotate(3deg) translate(0px, -4px)
+  -ms-transform: rotate(3deg) translate(0px, -4px)
+  transform: rotate(3deg) translate(0px, -4px)
 
 /* Header */
 
@@ -162,6 +166,9 @@ html.sr .load-hidden
 #home-landing h1
     margin: 0
     padding: 1rem 0
+
+#home-landing h2
+    font-size: 3rem
 
 #home-landing a
     font-size: 3rem
@@ -448,3 +455,245 @@ footer .copyright
 
 #about .experience .experience-text .experience-text-line-3
     margin-bottom: 0.8rem
+
+/* Leistungen Landing */
+
+#leistungen-landing
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/leistungen-landing.jpg)
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    
+#leistungen-landing h1
+    margin: 0
+    padding: 1rem 0
+
+#leistungen-landing a
+    font-size: 3rem
+    margin: 0px 300px
+
+/* Leistungen Texte */
+
+#leistungen .leistungen-box .leistungen-box-line-1
+    display: flex
+    justify-content: center
+    margin-top: 5rem
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-concept .leistungen-box-concept-caption svg
+    font-size: 2.6rem
+    margin-bottom: 2rem
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-design .leistungen-box-design-caption svg
+    font-size: 2.6rem
+    margin-bottom: 1rem
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-concept .leistungen-box-concept-caption
+    display: flex
+    align-items: center
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-design .leistungen-box-design-caption
+    display: flex
+    align-items: center
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-concept .leistungen-box-concept-caption p
+    font-size: 2rem
+    padding-top: 1.2rem
+    padding-left: 0.7rem
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-design .leistungen-box-design-caption p
+    font-size: 2rem
+    padding-top: 1.2rem
+    padding-left: 0.7rem
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-concept p
+    width: 40rem
+    text-align: justify
+    margin-top: 0
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-design p
+    width: 40rem
+    text-align: justify
+    margin-top: 0
+
+#leistungen .leistungen-box .leistungen-box-line-1 .leistungen-box-design
+    padding-left: 15rem
+
+#leistungen .leistungen-box .leistungen-box-line-2 .leistungen-box-support .leistungen-box-support-caption
+    display: flex
+    align-items: center
+
+#leistungen .leistungen-box .leistungen-box-line-2 .leistungen-box-support .leistungen-box-support-caption svg
+    font-size: 2.6rem
+    margin-bottom: 1.5rem
+    
+#leistungen .leistungen-box .leistungen-box-line-2 .leistungen-box-support .leistungen-box-support-caption p
+    font-size: 2rem
+    padding-top: 1.2rem
+    padding-left: 0.7rem
+
+#leistungen .leistungen-box .leistungen-box-line-2 .leistungen-box-support p
+    width: 40rem
+    text-align: justify
+    margin-top: 0
+
+#leistungen .leistungen-box .leistungen-box-line-2
+    justify-content: center
+    display: flex
+    margin-top: 5rem
+
+/* Leistungen Programming Language */
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1
+    display: flex
+    justify-content: center
+    margin-top: 5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-html
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+    text-align: center
+    align-items: center
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-css
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-nextjs
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-sass
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-html .leistungen-programming-language-line-1-html-img
+    background: url('/static/style/img/html5.png')
+    background-size: cover
+    width: 8rem
+    height: 8rem
+    margin: 3rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-html h3
+    margin-top: 2rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-css .leistungen-programming-language-line-1-css-img
+    background: url('/static/style/img/css3.png')
+    background-size: cover
+    width: 8rem
+    height: 8rem
+    margin: 3rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-css h3
+    margin-top: 2rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-nextjs .leistungen-programming-language-line-1-nextjs-img
+    background: url('/static/style/img/nextjs.png')
+    background-size: cover
+    width: 8rem
+    height: 8rem
+    margin: 3rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-nextjs h3
+    margin-top: 2rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-sass .leistungen-programming-language-line-1-sass-img
+    background: url('/static/style/img/sass.png')
+    background-size: cover
+    width: 9.5rem
+    height: 8rem
+    margin: 3rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-sass h3
+    margin-top: 2rem
+
+/* Line 2 */
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2
+    display: flex
+    justify-content: center
+    margin-top: 5rem
+    margin-bottom: 5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-adobe
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+    text-align: center
+    align-items: center
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-react
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-mysql
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-jquery
+    height: 20rem
+    width: 15rem
+    margin: auto 5rem
+    background-color: #1A1A24
+    border-radius: 1.5rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-adobe .leistungen-programming-language-line-2-adobe-img
+    background: url('/static/style/img/adobe.png')
+    background-size: cover
+    width: 8rem
+    height: 8rem
+    margin: 3rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-adobe h3
+    margin-top: 2rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-react .leistungen-programming-language-line-2-react-img
+    background: url('/static/style/img/react.png')
+    background-size: cover
+    width: 9rem
+    height: 8rem
+    margin: 3rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-react h3
+    margin-top: 2rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-mysql .leistungen-programming-language-line-2-mysql-img
+    background: url('/static/style/img/mysql.png')
+    background-size: cover
+    width: 12rem
+    height: 7rem
+    margin: 4rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-mysql h3
+    margin-top: 2rem
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-jquery .leistungen-programming-language-line-2-jquery-img
+    background: url('/static/style/img/jquery.png')
+    background-size: cover
+    width: 12rem
+    height: 3rem
+    margin: 8rem auto 0 auto
+
+#leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-jquery h3
+    margin-top: 2rem
+
