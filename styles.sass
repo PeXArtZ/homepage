@@ -696,4 +696,182 @@ footer .copyright
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-jquery h3
     margin-top: 2rem
+    
+/* Referenzen Landing */
 
+#referenzen-landing
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/referenzen-landing.jpg)
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    
+#referenzen-landing h1
+    margin: 0
+    padding: 1rem 0
+
+#referenzen-landing a
+    font-size: 3rem
+    margin: 0px 300px
+
+/* Referenzen Boxen */
+
+#referenzen .referenzen-box
+    display: block
+
+#referenzen .referenzen-box .referenzen-box-1
+    width: 100%
+    height: 35vh
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(0,0,0,0.5)),url('/static/style/img/grieche-thumb.png')
+    background-size: cover
+    border-radius: 5px
+    cursor: pointer
+    line-height: 35rem
+    margin-top: 9rem
+
+#referenzen .referenzen-box .referenzen-box-1 h2
+    font-size: 2.4rem
+
+#referenzen .referenzen-box .referenzen-box-2
+    width: 100%
+    height: 35vh
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(0,0,0,0.5)),url('https://via.placeholder.com/1920x500')
+    background-size: cover
+    border-radius: 5px
+    cursor: pointer
+    line-height: 35rem
+
+#referenzen .referenzen-box .referenzen-box-2 h2
+    font-size: 2.4rem
+
+#referenzen .referenzen-box .referenzen-box-2
+    position: relative
+
+#referenzen .referenzen-box .referenzen-box-2:hover::after
+    transform: scaleX(1)
+
+#referenzen .referenzen-box .referenzen-box-2::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: white
+
+#referenzen .referenzen-box .referenzen-box-1
+    position: relative
+
+#referenzen .referenzen-box .referenzen-box-1:hover::after
+    transform: scaleX(1)
+
+#referenzen .referenzen-box .referenzen-box-1::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: white
+
+/* Referenzen End */
+
+#referenzen .referenzen-end
+    display: block
+    margin-top: 9rem
+    margin-bottom: 9rem
+    text-align: center
+
+#referenzen .referenzen-end svg
+    font-size: 10rem
+    color: #D4D4D4
+
+#referenzen .referenzen-end h2
+    font-size: 2rem
+
+/* Blog Landing */
+
+#blog-landing
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/blog-landing.jpg)
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    
+#blog-landing h1
+    margin: 0
+    padding: 1rem 0
+
+#blog-landing a
+    font-size: 3rem
+    margin: 0px 300px
+
+/* Blog Posts */
+
+#blog .blog-post .blog-post-thumbnail
+    background: url('https://via.placeholder.com/1920x1080')
+    background-size: cover
+    width: 27rem
+    height: 16rem
+
+#blog .blog-post
+    display: flex
+    margin: 2.5rem 0 2.5rem 0
+    transition: all 0.25s ease-in-out
+
+#blog .blog-post:hover
+    background-color: #313954
+
+#blog .blog-post .blog-post-text h3
+    margin: 0
+    text-align: left
+    margin-left: 2.5rem
+    margin-top: 4rem
+
+#blog .blog-post .blog-post-text p
+    margin-left: 2.5rem
+
+#blog .expand
+    display: flex
+    justify-content: center
+    margin: 5rem 0 5rem 0
+
+#blog button
+    display: inline-block
+    padding: 0.55em 1.75em
+    border: 0.1em solid #ffffff
+    margin: 0 0.3em 0.4em 0
+    border-radius: 0.12em
+    box-sizing: border-box
+    text-decoration: none
+    font-weight: 300
+    color: #ffffff
+    text-align: center
+    background-color: transparent
+    cursor: pointer
+    transition: all 0.2s ease-in-out
+    
+#blog button:hover
+    background-color: white
+    color: black
+
+/* Datenschutz Landing */
+
+#datenschutz-landing
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/blog-landing.jpg)
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    
+#datenschutz-landing h1
+    margin: 0
+    padding: 1rem 0
+
+#datenschutz-landing a
+    font-size: 3rem
+    margin: 0px 300px
