@@ -862,7 +862,7 @@ footer .copyright
 /* Datenschutz Landing */
 
 #datenschutz-landing
-    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/blog-landing.jpg)
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/datenschutz-landing.jpg)
     background-size: cover
     height: 100vh
     display: flex
@@ -875,3 +875,82 @@ footer .copyright
 #datenschutz-landing a
     font-size: 3rem
     margin: 0px 300px
+
+/* Datenschutz */
+
+#datenschutz
+    margin-bottom: 9rem
+
+#datenschutz .datenschutzerklaerung h2
+    text-align: left
+    font-size: 3rem
+
+#datenschutz .datenschutzerklaerung h3
+    text-align: left
+    font-size: 2.5rem
+
+#datenschutz .datenschutzerklaerung a
+    color: #575757
+    position: relative
+    
+#datenschutz .datenschutzerklaerung a:hover::after
+    transform: scaleX(1)
+
+#datenschutz .datenschutzerklaerung a::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: #575757
+
+/* Impressum Landing */
+
+#impressum-landing
+    background: linear-gradient(rgba(0,0,0,0.5,), rgba(24,28,41,1)),url(/static/style/img/impressum-landing.jpg)
+    background-size: cover
+    height: 100vh
+    display: flex
+    align-items: center
+    
+#impressum-landing h1
+    margin: 0
+    padding: 1rem 0
+
+#impressum-landing a
+    font-size: 3rem
+    margin: 0px 300px
+
+/* Impressum */
+
+#impressum
+    margin-bottom: 9rem
+
+#impressum .impressum h2
+    font-size: 2.4rem
+    text-align: left
+
+#impressum .impressum h3
+    font-size: 2rem
+    text-align: left
+
+#impressum .impressum a
+    color: #575757
+    position: relative
+    
+#impressum .impressum a:hover::after
+    transform: scaleX(1)
+
+#impressum .impressum a::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: #575757

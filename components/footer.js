@@ -19,10 +19,10 @@ const BrandFoot = () => (
         <section className="legal-nav">
             <div className="wrapper">
                 <div className="social-icons">
-                    <Link href="https://www.youtube.com/pexgraphics"><a><i class="fab fa-youtube"></i></a></Link>
-                    <Link href="https://www.twitter.com/pexfx_"><a><i class="fab fa-twitter"></i></a></Link>
-                    <Link href="https://www.instagram.com/tobi.css"><a><i class="fab fa-instagram"></i></a></Link>
-                    <Link href="ts3server://frostiqz.de?"><a><i class="fab fa-teamspeak"></i></a></Link>
+                    <Link href="https://www.youtube.com/pexgraphics"><a><i className="fab fa-youtube"></i></a></Link>
+                    <Link href="https://www.twitter.com/pexfx_"><a><i className="fab fa-twitter"></i></a></Link>
+                    <Link href="https://www.instagram.com/tobi.css"><a><i className="fab fa-instagram"></i></a></Link>
+                    <Link href="ts3server://frostiqz.de?"><a><i className="fab fa-teamspeak"></i></a></Link>
                 </div>
                 <div className="info-sites">
                     <nav>
