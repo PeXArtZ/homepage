@@ -4,7 +4,6 @@ import NextHead from 'next/head'
 import HeadTag from '../components/head'
 import Header from '../components/header'
 import BrandFoot from '../components/footer'
-import Contact from '../components/contact'
 
 const Index = () => (
     <div>
@@ -17,9 +16,9 @@ const Index = () => (
             <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="application-name" content="Private Website Tobias Voigt"></meta>
-            <meta name="description" lang="de" content="In meinem Kontaktformular finden Sie alle Möglichkeiten mich persönlich zu kontaktieren. Verwenden Sie auch gern das Kontaktformular."></meta>
-            <meta name="twitter:title" content="Kontakt - Tobias Voigt"></meta>
-            <meta name="twitter:description" lang="de" content="In meinem Kontaktformular finden Sie alle Möglichkeiten mich persönlich zu kontaktieren. Verwenden Sie auch gern das Kontaktformular."></meta>
+            <meta name="description" lang="de" content="Auf der Kontaktseite finden Sie Möglichkeiten, mich zu kontaktieren!"></meta>
+            <meta name="twitter:title" content="Impressum - Tobias Voigt"></meta>
+            <meta name="twitter:description" lang="de" content="Auf der Kontaktseite finden Sie Möglichkeiten, mich zu kontaktieren!"></meta>
             <meta name="twitter:card" content="summary"></meta>
             <meta itemProp="name" content="Tobias Voigt"></meta>
             <meta itemProp="description" lang="de" content="Webdesigner"></meta>
@@ -71,10 +70,16 @@ const Index = () => (
                 <h3>Kontakt</h3>
                 <hr />
                 <div className="kontakt">
-                    <Contact />
+                    <p>Tobias Voigt<br />
+                    Pulsnitzer Str. 71<br />
+                    01917 Kamenz<br />
+                    E-Mail: <Link href="mailto:kontakt@tobias-voigt.net"><a>kontakt@tobias-voigt.net</a></Link></p>
                 </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.1496811407989!2d14.089515729275673!3d51.263297298724716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4708495d0ecd0d47%3A0xba8b7c2cfbdf3ea8!2sPulsnitzer+Str.+71%2C+01917+Kamenz!5e0!3m2!1sde!2sde!4v1543100976418"></iframe>
             </div>
         </section>
+
+        <BrandFoot />
     </div>
 )
 

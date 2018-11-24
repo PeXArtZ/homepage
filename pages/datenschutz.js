@@ -17,7 +17,7 @@ const Index = () => (
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="application-name" content="Private Website Tobias Voigt"></meta>
             <meta name="description" lang="de" content="In meiner Datenschutzerklärung erhalten Sie alle wichtigen Informationen, die Sie benötigen, wenn Sie meine Website besuchen."></meta>
-            <meta name="twitter:title" content="Blog - Tobias Voigt"></meta>
+            <meta name="twitter:title" content="Datenschutzerklärung - Tobias Voigt"></meta>
             <meta name="twitter:description" lang="de" content="In meiner Datenschutzerklärung erhalten Sie alle wichtigen Informationen, die Sie benötigen, wenn Sie meine Website besuchen."></meta>
             <meta name="twitter:card" content="summary"></meta>
             <meta itemProp="name" content="Tobias Voigt"></meta>
@@ -52,11 +52,8 @@ const Index = () => (
 
             <title>Datenschutzerklärung - Webdesign Tobias Voigt</title>
 
-            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 
-            <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-            <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
         </NextHead>
 
         <Header />
