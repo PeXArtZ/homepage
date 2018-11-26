@@ -15,6 +15,9 @@ html, body
     font-size: 10px
     font-family: 'Source Sans Pro', sans-serif
 
+html
+    scroll-behavior: smooth
+
 h1, h2, h3, h4, h5, h6 
     hyphens: auto
     font-weight: 700
@@ -115,6 +118,7 @@ hr
     background: url('/static/style/img/logo.png')
     background-size: cover
     margin: 1rem 0
+    cursor: pointer
 
 .global-nav nav ul
     list-style: none
@@ -146,11 +150,11 @@ hr
     background-color: white 
 
 .move
-    background: #181C29
+    background: #12151F
     box-shadow: 0 .4rem .8rem rgba(0,0,0,.25)
 
 .move-site
-    background: #181C29
+    background: #12151F
     box-shadow: 0 .4rem .8rem rgba(0,0,0,.25)
 
 
@@ -167,9 +171,6 @@ hr
     margin: 0
     padding: 1rem 0
 
-#home-landing h2
-    font-size: 3rem
-
 #home-landing a
     font-size: 3rem
     margin: 0px 300px
@@ -179,14 +180,15 @@ hr
 #home .intro1 .home-img1
     background: url('/static/style/img/intro1.jpg')
     background-size: cover
-    width: 30rem
-    height: 20rem
+    width: 40rem
+    height: 27.5rem
     border-radius: 20px
     filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
 
 #home .intro1
     display: flex
     margin: 70px 0
+    justify-content: center
 
 #home .intro1 .text p
     width: 50rem
@@ -196,6 +198,7 @@ hr
 #home .intro1 .text
     margin: 0px 0px 0px 50px
     text-align: center
+    align-self: center
 
 #home .intro1 .text button
     display: inline-block
@@ -221,15 +224,14 @@ hr
 #home .intro2 .home-img2
     background: url('/static/style/img/intro2.jpg')
     background-size: cover
-    width: 36rem
-    height: 26rem
+    width: 40rem
+    height: 28rem
     border-radius: 20px
     filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
 
 #home .intro2
     display: flex
-    float: right
-    position: relative
+    justify-content: center
     margin: 70px 0
 
 #home .intro2 .text p
@@ -240,6 +242,7 @@ hr
 #home .intro2 .text
     margin: 0px 50px 0px 0px
     text-align: center
+    align-self: center
 
 #home .intro2 .text button
     display: inline-block
@@ -265,14 +268,15 @@ hr
 #home .intro3 .home-img3
     background: url('/static/style/img/intro3.jpg')
     background-size: cover
-    width: 30rem
-    height: 20rem
+    width: 40rem
+    height: 25rem
     border-radius: 20px
     filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.3))
 
 #home .intro3
     display: flex
-    margin: 70px 0 130px 0
+    justify-content: center
+    margin: 70px 0
 
 #home .intro3 .text
     margin: auto 0px auto 50px
@@ -282,8 +286,23 @@ hr
     width: 50rem
     text-align: justify
 
-#home .portfolio
-    margin-top: 41rem
+#home .intro3 .text a
+    color: #575757
+    position: relative
+    
+#home .intro3 .text a:hover::after
+    transform: scaleX(1)
+
+#home .intro3 .text a::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: #575757
 
 /* Footer */
 
@@ -556,7 +575,8 @@ footer .copyright
     background-color: #1A1A24
     border-radius: 1.5rem
     text-align: center
-    align-items: center
+    align-items: center 
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-css
     height: 20rem
@@ -564,6 +584,7 @@ footer .copyright
     margin: auto 5rem
     background-color: #1A1A24
     border-radius: 1.5rem
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-nextjs
     height: 20rem
@@ -571,6 +592,7 @@ footer .copyright
     margin: auto 5rem
     background-color: #1A1A24
     border-radius: 1.5rem
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-sass
     height: 20rem
@@ -578,6 +600,7 @@ footer .copyright
     margin: auto 5rem
     background-color: #1A1A24
     border-radius: 1.5rem
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-1 .leistungen-programming-language-line-1-html .leistungen-programming-language-line-1-html-img
     background: url('/static/style/img/html5.png')
@@ -635,6 +658,7 @@ footer .copyright
     border-radius: 1.5rem
     text-align: center
     align-items: center
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-react
     height: 20rem
@@ -642,6 +666,7 @@ footer .copyright
     margin: auto 5rem
     background-color: #1A1A24
     border-radius: 1.5rem
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-mysql
     height: 20rem
@@ -649,6 +674,7 @@ footer .copyright
     margin: auto 5rem
     background-color: #1A1A24
     border-radius: 1.5rem
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-jquery
     height: 20rem
@@ -656,6 +682,7 @@ footer .copyright
     margin: auto 5rem
     background-color: #1A1A24
     border-radius: 1.5rem
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0,0,0,0.2))
 
 #leistungen .leistungen-programming-language .leistungen-programming-language-line-2 .leistungen-programming-language-line-2-adobe .leistungen-programming-language-line-2-adobe-img
     background: url('/static/style/img/adobe.png')
@@ -976,8 +1003,32 @@ footer .copyright
 
 #kontakt .kontakt
     width: 100%
-    margin: 0 auto
+    margin: 6rem auto 0 auto
 
 #kontakt .kontakt p
-    margin: 0 auto
-    text-align: justify
+    text-align: center
+
+#kontakt iframe
+    width: 100%
+    height: 50rem
+    filter: grayscale(1)
+    margin: 5rem 0 9rem 0
+    position: relative
+
+#kontakt .kontakt a
+    color: #575757
+    position: relative
+    
+#kontakt .kontakt a:hover::after
+    transform: scaleX(1)
+
+#kontakt .kontakt a::after
+    content: ""
+    position: absolute
+    bottom: -4px
+    left: 0
+    width: 100%
+    height: 2px
+    transition: transform .25s cubic-bezier(0.65, 0.05, 0.36, 1)
+    transform: scaleX(0)
+    background-color: #575757

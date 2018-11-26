@@ -60,7 +60,7 @@ const Index = () => (
         <section id="referenzen-landing">
             <div className="wrapper">
                 <h1>Referenzen</h1>
-                <h2>"Mein Motto ist beschissen"</h2>
+                <h2>Meine bisherigen Projekte</h2>
                 <Link href="#referenzen"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
             </div>
         </section>

@@ -60,7 +60,7 @@ const Index = () => (
         <section id="impressum-landing">
             <div className="wrapper">
                 <h1>Impressum</h1>
-                <h2>"Mein Motto ist beschissen"</h2>
+                <h2>Rechtliches</h2>
                 <Link href="#impressum"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
             </div>
         </section>

@@ -4,7 +4,6 @@ import NextHead from 'next/head'
 import HeadTag from '../components/head'
 import Header from '../components/header'
 import BrandFoot from '../components/footer';
-
 const Index = () => (
     <div>
         <NextHead>
@@ -62,7 +61,7 @@ const Index = () => (
         <section id="home-landing">
          <div className="wrapper">
                  <h1>Tobias Voigt</h1>
-                 <h2>Webdesigner</h2>
+                 <h2>Hobby-Webdesigner</h2>
                  <Link href="#home"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
              </div>
          </section>
@@ -102,7 +101,7 @@ const Index = () => (
                         <p>
                         Auf meiner <Link href="/referenzen"><a>Referenzen</a></Link> Seite erhalten Sie einen Überblick über meine bisherig abgeschlossenen und aktuell 
                         betreuten Projekte. Weitere Projekte werden folgen. Für nähere Informationen stehe ich Ihnen gern per <Link href="mailto:kontakt@tobias-voigt.net">
-                        <a>E-Mail</a></Link> oder <Link href="/kontakt"><a>Kontaktformular</a></Link> zur Verfügung.
+                        <a>E-Mail</a></Link> zur Verfügung.
                         </p>
                     </div>
                 </div>

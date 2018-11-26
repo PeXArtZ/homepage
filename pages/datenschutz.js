@@ -61,7 +61,7 @@ const Index = () => (
         <section id="datenschutz-landing">
             <div className="wrapper">
                 <h1>Datenschutzerklärung</h1>
-                <h2>"Mein Motto ist beschissen"</h2>
+                <h2>Rechtliches</h2>
                 <Link href="#datenschutz"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
             </div>
         </section>

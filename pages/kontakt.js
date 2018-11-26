@@ -60,7 +60,7 @@ const Index = () => (
         <section id="kontakt-landing">
             <div className="wrapper">
                 <h1>Kontakt</h1>
-                <h2>"Mein Motto ist beschissen"</h2>
+                <h2>Möglichkeiten mich zu kontaktieren</h2>
                 <Link href="#kontakt"><a><i className="fas fa-chevron-circle-down"></i></a></Link>
             </div>
         </section>
@@ -75,7 +75,9 @@ const Index = () => (
                     01917 Kamenz<br />
                     E-Mail: <Link href="mailto:kontakt@tobias-voigt.net"><a>kontakt@tobias-voigt.net</a></Link></p>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.1496811407989!2d14.089515729275673!3d51.263297298724716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4708495d0ecd0d47%3A0xba8b7c2cfbdf3ea8!2sPulsnitzer+Str.+71%2C+01917+Kamenz!5e0!3m2!1sde!2sde!4v1543100976418"></iframe>
+                <div className="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.1496811407989!2d14.089515729275673!3d51.263297298724716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4708495d0ecd0d47%3A0xba8b7c2cfbdf3ea8!2sPulsnitzer+Str.+71%2C+01917+Kamenz!5e0!3m2!1sde!2sde!4v1543100976418"></iframe>
+                </div>
             </div>
         </section>
 
