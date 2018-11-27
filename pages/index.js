@@ -12,6 +12,7 @@ const Index = () => (
             <script src="https://cdn.uwe-barthel.net/landing/static/style/js/function.js"></script>
             <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossOrigin="anonymous"></script>
 
+
             <meta charSet="UTF-8"></meta>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -55,7 +56,6 @@ const Index = () => (
             <title>Home - Webdesign Tobias Voigt</title>
 
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
-
         </NextHead>
         <Header />
         <section id="home-landing">

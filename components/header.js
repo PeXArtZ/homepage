@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Index from '../components/function'
+import Index from './main'
 
 const Navigation = () => (
     <div>
@@ -19,14 +19,14 @@ const Navigation = () => (
         </header>
         <header className="mobile-global-nav">
             <nav className="menu" id="menu-mobile">
-                <a onClick="closeNav()" href="javascript:void(0)" className="menu-close menu-icons">
+                <a onClick={closeNav} href="javascript:void(0)" className="menu-close menu-icons">
                     <i className="fas fa-times"></i>
                 </a>
                 <ul className="nav-mobile">
-                    <a onClick="closeNav()" href="javascript:void(0)" className="menu-close menu-icons">
+                    <a onClick={closeNav} href="javascript:void(0)" className="menu-close menu-icons">
                     </a>
                     <li>
-                        <a onClick="closeNav()" href="javascript:void(0)" className="menu-close menu-icons"></a>
+                        <a onClick={closeNav} href="javascript:void(0)" className="menu-close menu-icons"></a>
                         <a href="/">Home</a>
                     </li>
                     <li>
@@ -45,7 +45,7 @@ const Navigation = () => (
             </nav>
             <section className="items">
                 <div className="wrapper">
-                    <a onClick="openNav()" href="javascript:void(0)" className="menu-icons">
+                    <a onClick={openNav} href="javascript:void(0)" className="menu-icons">
                         <i className="fas fa-bars"></i>
                     </a>
                     <a href="/" className="logo-mobile"></a>
