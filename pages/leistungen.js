@@ -77,7 +77,7 @@ const Index = () => (
                                 <i className="far fa-lightbulb"></i>
                                 <p>Konzeption</p>
                             </div>
-                            <p>
+                            <p className="concept-text">
                                 Jedes Web-Projekt basiert auf einer durchdachten Konzeption in Adobe XD, in welchem Sie einen Einblick erhalten, wie Ihre Website
                                 später einmal aussehen könnte. Auf Anfrage entwerfe ich Ihnen, mit allen nötigen Infos, kostenlos einen Entwurf.
                             </p>

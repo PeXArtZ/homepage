@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import Index from './main'
+
+const openNav = () => document.getElementById("menu-mobile").style.width = "25rem";
+const closeNav = () => document.getElementById("menu-mobile").style.width = "0";
 
 const Navigation = () => (
     <div>

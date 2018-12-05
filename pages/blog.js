@@ -80,36 +80,6 @@ const Index = () => (
                         </p>
                     </div>
                 </div></a></Link>
-                <Link href="/post-example"><a>
-                    <div className="blog-post">
-                    <div className="blog-post-thumbnail"></div>
-                    <div className="blog-post-text">
-                        <h3>Ich bin ein Blog Post</h3>
-                        <p>
-                            Lorem ipsum simsalabim du bist verzaubert hehe easy
-                        </p>
-                    </div>
-                </div></a></Link>
-                <Link href="/post-example"><a>
-                    <div className="blog-post">
-                    <div className="blog-post-thumbnail"></div>
-                    <div className="blog-post-text">
-                        <h3>Ich bin auch ein Blog Post</h3>
-                        <p>
-                            Lorem ipsum simsalabim du bist verzaubert hehe easy
-                        </p>
-                    </div>
-                </div></a></Link>
-                <Link href="/post-example"><a>
-                    <div className="blog-post">
-                    <div className="blog-post-thumbnail"></div>
-                    <div className="blog-post-text">
-                        <h3>Ich bin ein trauriger Blog Post</h3>
-                        <p>
-                            Lorem ipsum simsalabim du bist verzaubert hehe easy
-                        </p>
-                    </div>
-                </div></a></Link>
                 <div className="expand">
                     <Link href="/blog-expand"><a><button>Mehr anzeigen</button></a></Link>
                 </div>
