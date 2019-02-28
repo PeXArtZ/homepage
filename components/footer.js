@@ -34,7 +34,7 @@ const BrandFoot = () => (
                     </nav>
                 </div>
                 <div className="copyright">
-                    ©2018 Tobias Voigt
+                    ©2019 Tobias Voigt
                 </div>
             </div>
         </section>
